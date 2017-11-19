@@ -1,0 +1,107 @@
+{
+  "questions_count":8,
+  "questions":[
+    {
+      "video-question":true,
+      "intro-path":"src/videos/Biologia-UVOD.mp4",
+      "main-path":"src/videos/Biologia.mp4",
+      "theme":"Biológia",
+      "title":"Dedinské kosenie",
+      "description":"Ktorý obecný zamestnanec vykosí skôr daný úsek trávy?",
+      "answers":[
+        "A - Obecný zamestnanec Richard",
+        "B - Obecný zamestnanec Viliam",
+        "C - Nevyhraje nikto"
+      ]
+    },
+    {
+      "video-question":true,
+      "intro-path":"src/videos/Sport-UVOD.mp4",
+      "main-path":"src/videos/Sport.mp4",
+      "theme":"Šport",
+      "title":"Chytanie",
+      "description":"Ktorý švárny šuhaj chytá lepšie?",
+      "answers":[
+        "A - Švárny Šuhaj  Richard",
+        "B - Obaja sú kriví, nechytí ani jeden",
+        "C - Švárny Šuhaj  Boris"
+      ]
+    },
+    {
+      "video-question":false,
+      "theme":"Zdravá výživa",
+      "title":"Jedenie Jogurtov",
+      "description":"Piati náhodne vybraný dobrovolníci budu štafetovo jesť jogurty, komu sa to podarí skôr? ",
+      "answers":[
+        "A - Rýchlejšia bude skupinka Proteín",
+        "B - Rýchlejšia bude skupinka Sacharid",
+        "C - Dojedia za rovnaký čas "
+      ]
+    },
+    {
+      "video-question":false,
+      "theme":"Ľudové tradície",
+      "title":"Fľaškový tanec",
+      "description":"Animátor Michal bude súperiť s animátorom Danielom vo fľaškovom tanci.",
+      "answers":[
+        "A - Fľaša sa rozbije, nik nevyhrá",
+        "B - Daniel pretancuje Michala",
+        "C - Michal pretancuje Daniela"
+      ]
+    },
+    {
+      "video-question":false,
+      "theme":"Miništrova- nie",
+      "title":"Rozmer hostie",
+      "description":"Aký je priemer klasickej kňazskej hostie?",
+      "answers":[
+        "A - Rozmer je od 6,2cm do 6,4cm",
+        "B - Rozmer je od 6,5cm do 6,7cm",
+        "C - Hostia ma viac ako 6,7cm"
+      ]
+    },
+    {
+      "video-question":false,
+      "theme":"5 proti 5",
+      "title":"Šupanie zemiakov",
+      "description":"Piati chlapci proti piatim dievčatám, kto skôr ošupe 1KG zemiakov.",
+      "answers":[
+        "A - Vyhrajú Šupaci",
+        "B - Vyhrajú Šupačky",
+        "C - Jeden z teamov nesplní podmienky"
+      ]
+    },
+    {
+      "video-question":true,
+      "intro-path":"src/videos/Moderny-Fitness-UVOD.mp4",
+      "main-path":"src/videos/Moderny-Fitness.mp4",
+      "theme":"Fyzio terapia",
+      "title":"Moderný fitness",
+      "description":"Makáč Matej verzus makáč Christián kto spraví po roztočení Fidget spinnera viac kľukov, drepov, brušákov.",
+      "answers":[
+        "A - Spolu spravia viac ako 150 úkonov",
+        "B - Makáč Christán porazí Mateja o viac ako 5 úkonov ",
+        "C - Makáč Matej porazí Christiána o viac ako 5 úkonov"
+      ]
+    },
+    {
+      "video-question":true,
+      "intro-path":"src/videos/Den-Zeme-UVOD.mp4",
+      "main-path":"src/videos/Den-Zeme.mp4",
+      "theme":"Deň zeme",
+      "title":"Behom či Autom ?",
+      "description":"Kto sa dostane skôr od Fontány lásky na sídlisko 2A pred reštáuraciu animátor behom alebo animátor autom.",
+      "answers":[
+        "A - Vyhraje auto",
+        "B - Vyhraje beh",
+        "C - Dôjdu naraz"
+      ]
+    }
+  ],
+  "bonus-question":{
+    "video-question":false,
+    "theme":"Kapitáni",
+    "title":"Súboj kapitánov",
+    "description":"Počet budov získa skupina, ktorá ma šikovnejšieho kapitána. Na splnenie úlohy bude 60 sekúnd a počet získaných bodov sa priráta ku celkovému stavu."
+  }
+}

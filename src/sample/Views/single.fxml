@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="854.0" prefWidth="1405.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SingleController">
+   <styleClass>
+      <String fx:value="round-corners" />
+      <String fx:value="orange-bg" />
+   </styleClass>
+   <children>
+      <Label fx:id="theme" layoutX="1059.0" layoutY="80.0" styleClass="question-theme" text="Label" AnchorPane.rightAnchor="80.0" AnchorPane.topAnchor="80.0" />
+      <VBox layoutX="80.0" layoutY="74.0" prefHeight="302.0" spacing="30.0" AnchorPane.leftAnchor="80.0" AnchorPane.topAnchor="80.0">
+         <children>
+            <Label fx:id="title" styleClass="question-title" text="Label" />
+            <Text fx:id="description" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="question-description" text="Text" wrappingWidth="750.0" />
+            <Group>
+               <children>
+                  <VBox spacing="20.0">
+                     <children>
+                        <RadioButton fx:id="answerA" mnemonicParsing="false" styleClass="question-answer" text="RadioButton">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="answers" />
+                           </toggleGroup></RadioButton>
+                        <RadioButton fx:id="answerB" mnemonicParsing="false" styleClass="question-answer" text="RadioButton" toggleGroup="$answers" />
+                        <RadioButton fx:id="answerC" mnemonicParsing="false" styleClass="question-answer" text="RadioButton" toggleGroup="$answers" />
+                     </children>
+                  </VBox>
+               </children>
+            </Group>
+            <HBox fx:id="buttons" prefHeight="100.0" prefWidth="200.0" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

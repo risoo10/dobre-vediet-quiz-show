@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="854.0" prefWidth="1405.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ValidationController">
+   <styleClass>
+      <String fx:value="round-corners" />
+      <String fx:value="orange-bg" />
+   </styleClass>
+   <children>
+      <VBox layoutX="80.0" layoutY="74.0" prefHeight="302.0"  spacing="30.0" AnchorPane.leftAnchor="80.0" AnchorPane.topAnchor="80.0" >
+         <children>
+            <Label styleClass="question-title" text="Správnou odpoveďou je:" />
+            <HBox fx:id="container">
+            </HBox>
+            <VBox spacing="20.0">
+               <children>
+                  <RadioButton fx:id="answerA" mnemonicParsing="false" styleClass="question-answer" text="RadioButton">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="answers" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="answerB" mnemonicParsing="false" styleClass="question-answer" text="RadioButton" toggleGroup="$answers" />
+                  <RadioButton fx:id="answerC" mnemonicParsing="false" styleClass="question-answer" text="RadioButton" toggleGroup="$answers" />
+               </children>
+            </VBox>
+            <Button mnemonicParsing="false" onAction="#showScore" text="Potvrď &gt;" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

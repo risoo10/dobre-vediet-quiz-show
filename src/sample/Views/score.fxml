@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="722.0" prefWidth="1273.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ScoreController">
+   <children>
+      <Button mnemonicParsing="false" onAction="#getQuestions" text="Otázky &gt;" />
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="651.0" prefWidth="1273.0">
+         <children>
+            <Label fx:id="score1" alignment="BOTTOM_CENTER" contentDisplay="CENTER" layoutX="-1.0" layoutY="130.0" prefHeight="321.0" prefWidth="626.0" styleClass="score" text="Label" textAlignment="CENTER" AnchorPane.leftAnchor="0.0" />
+            <Label fx:id="scoreName1" alignment="CENTER" contentDisplay="CENTER" layoutX="6.0" layoutY="452.0" prefHeight="71.0" prefWidth="626.0" text="Label" textAlignment="CENTER" AnchorPane.leftAnchor="0.0">
+               <styleClass>
+                  <String fx:value="title" />
+                  <String fx:value="round-corners" />
+               </styleClass></Label>
+            <Label fx:id="score2" alignment="BOTTOM_CENTER" contentDisplay="CENTER" layoutX="647.0" layoutY="130.0" prefHeight="321.0" prefWidth="626.0" styleClass="score" text="Label" textAlignment="CENTER" AnchorPane.rightAnchor="0.0" />
+            <Label fx:id="scoreName2" alignment="CENTER" contentDisplay="CENTER" layoutX="757.0" layoutY="452.0" prefHeight="71.0" prefWidth="626.0" text="Label" textAlignment="CENTER" AnchorPane.rightAnchor="0.0">
+               <styleClass>
+                  <String fx:value="title" />
+                  <String fx:value="round-corners" />
+               </styleClass></Label>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

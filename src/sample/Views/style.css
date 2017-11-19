@@ -1,0 +1,121 @@
+
+
+.button {
+    -fx-background-color: #FDBD4B !important;
+    -fx-background-radius: 30 !important;
+    -fx-background-insets: 0 !important;
+    -fx-text-fill: black;
+    -fx-font-family: "Raleway";
+    -fx-font-size: 50;
+    -fx-font-weight: 700;
+    -fx-fill: #FDBD4B;
+}
+
+.button:hover {
+    -fx-background-color: #F7AA2D !important;
+}
+
+.button.main {
+    -fx-background-color: #EC008C !important;
+    -fx-text-fill: white;
+}
+
+.button.main:hover{
+    -fx-background-color: #990066 !important;
+}
+
+
+.title {
+    -fx-background-color: #FC2727 !important;
+    -fx-background-radius: 30 !important;
+    -fx-background-insets: 0 !important;
+    -fx-padding: 0.5em;
+    -fx-font-family: "Raleway";
+    -fx-font-size: 60;
+    -fx-font-weight: 700;
+    -fx-text-fill: #000000;
+}
+
+.score {
+    -fx-font-family: "Raleway";
+    -fx-font-size: 220;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: 700;
+}
+
+.question-thumbnail{
+    -fx-background-radius: 15 !important;
+    -fx-font-size: 45;
+    -fx-font-weight: 800;
+    -fx-text-alignment: CENTER;
+    -fx-pref-height: 300;
+    -fx-pref-width: 300;
+}
+
+.question-thumbnail.won {
+    -fx-background-color: #75BC55 !important;
+    -fx-text-fill: #FFFFFF;
+}
+
+.question-thumbnail.burnt {
+    -fx-background-color: #BCBBBB !important;
+    -fx-text-fill: #444444;
+}
+
+
+.question-box {
+    -fx-fit-to-width: 1260px;
+    -fx-fit-to-height: 620px;
+}
+
+.round-corners {
+    -fx-background-radius: 100 !important;
+}
+
+.orange-bg{
+    -fx-background-color: #FDBD4B !important;
+}
+
+.question-title {
+    -fx-font-size: 80;
+    -fx-font-weight: 700;
+    -fx-text-fill: #000000;
+}
+
+.question-theme {
+    -fx-font-size: 50;
+    -fx-font-weight: 700;
+    -fx-text-fill: #EC008C;
+}
+
+.question-description {
+    -fx-font-size: 35;
+    -fx-font-weight: 400;
+    -fx-text-fill: #000000;
+    -fx-wrap-text: true;
+}
+
+.question-answer {
+    -fx-font-size: 45;
+    -fx-font-weight: 700;
+    -fx-text-fill: #000000;
+}
+
+.question-answer:selected {
+    -fx-text-fill: #EC008C;
+}
+
+.active-player {
+    -fx-font-family: "Raleway";
+    -fx-font-size: 45;
+    -fx-font-weight: 700;
+    -fx-text-fill: #EC008C;
+}
+
+.combo-box {
+    -fx-font-size: 40;
+}
+
+.text-field {
+    -fx-font-size: 40;
+}

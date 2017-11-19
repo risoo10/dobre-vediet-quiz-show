@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="881.0" prefWidth="1282.0" spacing="50.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.QuestionsController">
+   <children>
+      <Label alignment="CENTER" styleClass="title" text="Otázky" textAlignment="CENTER" />
+      <FlowPane fx:id="questionsBox" hgap="20.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="1260.0" styleClass="question-box" vgap="20.0" />
+      <Label fx:id="activePlayer" alignment="CENTER" styleClass="active-player" text="Otázky" textAlignment="CENTER" />
+   </children>
+</VBox>
