@@ -5,13 +5,13 @@ Parody of the TV quiz show "Dobre Vediet". My Java FX side project for the summe
 This is the side project I worked on during summer of 2017. Every summer I go to kid's camp as volunteer. This year we recreated Quiz show "Dobre vediet", made funny videos as content and hosted an evening show using this app. 
 
 ## Graphical interface
-I designed the App interface to be simmilar to the original TV show. 
+I designed the App interface to be similar to the original TV show. 
 
 ### Themes screen 
 
 ![themes](https://github.com/risoo10/dobre-vediet-quiz-show/blob/master/src/img/otazky.jpg)
 
-I listed every theme, for which we prepared single question. In the bottom we can see the player which is actually on the move. Theme that was succesfully completed is green and the unsuccesful one is grey. You can only choose from yellow ones, which are available.
+I listed every theme, for which we prepared single question. In the bottom we can see the player which is actually on the move. Theme that was successfully completed is green and the unsuccessful one is grey. You can only choose from yellow ones, which are available.
 
 ### Question screen
 
