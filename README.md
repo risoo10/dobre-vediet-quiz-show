@@ -9,17 +9,18 @@ I designed the App interface to be simmilar to the original TV show.
 
 ### Themes screen 
 
-![themes](dobre-vediet-quiz-show/src/img/otazky.jpg)
+![themes](https://github.com/risoo10/dobre-vediet-quiz-show/blob/master/src/img/otazky.jpg)
 
 I listed every theme, for which we prepared single question. In the bottom we can see the player which is actually on the move. Theme that was succesfully completed is green and the unsuccesful one is grey. You can only choose from yellow ones, which are available.
 
 ### Question screen
 
-![question](dobre-vediet-quiz-show/src/img/otazka.jpg)
+![question](https://github.com/risoo10/dobre-vediet-quiz-show/blob/master/src/img/otazka.jpg)
+
 For every theme there was displayed full question. There is also a brief further description of the question. User can choose from 3 answers and confirm final decision.
 
 ### Score review screen
 
-![score](dobre-vediet-quiz-show/src/img/skore.jpg)
+![score](https://github.com/risoo10/dobre-vediet-quiz-show/blob/master/src/img/skore.jpg)
 
 After choosing answer app shows the actual score of the both teams. Next team is on the move and they again choose from available themes and questions.
